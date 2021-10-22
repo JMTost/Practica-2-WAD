@@ -43,21 +43,7 @@ public class ProductoDAO {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-    /*private void conectar() {
-        String user = "cxffhmminabyzh";
-        String pwd = "b78bc1426a8c49195a09fae302216b016d43b35b1ee318a1ce6123c8672ac3f2";
-        String url = "jdbc:postgresql://ec2-3-220-214-162.compute-1.amazonaws.com:5432/dbmtr1hpauq6dl";//sslmoderequire
-        String pgDriver = "org.postgresql.Driver";
-        try {
-            //registra el driver de java para el manejador de base de datos
-            Class.forName(pgDriver);
-            conexion = DriverManager.getConnection(url, user, pwd);
-            //debería de ser dos excepciones, class not found exception y sql exception, por no colocar de forma correcta los datos para la conexion a la base 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }*/
+    }   
     public List readAll() throws SQLException {
         conectar();
         PreparedStatement ps = null;

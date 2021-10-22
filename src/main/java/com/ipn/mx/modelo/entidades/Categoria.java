@@ -43,14 +43,6 @@ public class Categoria implements Serializable{
         this.descripcionCategoria = descripcionCategoria;
     }
 
-//    @Override
-//    public String toString() {
-//        StringBuilder sb = new StringBuilder();
-//        sb.append("idCategoria= ").append(getIdCategoria()).append("\n");
-//        sb.append("nombreCategoria= ").append(getNombreCategoria()).append("\n");
-//        sb.append("descripcionCategoria= ").append(getDescripcionCategoria()).append("\n");
-//        return sb.toString();
-//    }
-    
+
     
 }
